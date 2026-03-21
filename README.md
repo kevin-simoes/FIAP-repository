@@ -1,2 +1,2 @@
 <img src="./logo_logo-fiap-principal-1-1.png" width="300"><br>
-## Repository for all my study documentation from FIAP.
+## Repository for all my study documentation from FIAP
