@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 10px
+}
+
+h1 {
+    color:rgba(50, 155, 102, 0.32)
+}
+
+p {
+    color: #b4b6b8
+}
+
+// SECTION
+
+section {
+    padding: 50px 30px 20px 60px;
+    margin-left: 40px;
+}
+
+section article {
+    background-color: #cccccc;
+    width: 500px;
+    height: 500px;
+}
+
+section article h1 {
+    color: red;
+    background-color:rgb(206, 102, 102);
+    width: 500px;
+    height: 500px;
+}
+
+section article p {
+    line-height: 4;
+}
+
+// criando uma classe:
+
+.classeExemplo {
+    color: red;
+}
+
+// criando um ID
+
+#nomeSecao {
+    color: green;
+}
+
+h1 {
+    color: blue;
+}
