@@ -1,3 +1,6 @@
 numero = int(input('Digite um número: '))
 
-conversao = numero * -1
+if numero < 0:
+    numero = numero * -1
+    print(numero)
+
