@@ -4,12 +4,14 @@
 # Área = π * r2
 # Perímetro = π * 2 * r
 
+import math
+
 def calculoArea(circulo):
-    area = 3,14 * (circulo*circulo)
+    area = math.pi * (circulo*circulo)
     return area
 
 def calculoPerimetro(circulo):
-    perimetro = 3,14 *( 2 * circulo)
+    perimetro = math.pi *( 2 * circulo)
     return perimetro
 
 num = int(input("Digite o número do raio do círculo: "))
@@ -17,4 +19,4 @@ num = int(input("Digite o número do raio do círculo: "))
 calculo_area = calculoArea(num)
 calculo_perimetro = calculoPerimetro(num)
 
-print(f"O valor da área do círculo é {calculo_area} e o perímetro é {calculo_perimetro}")
+print(f"O valor da área do círculo é {calculo_area:.2f} e o perímetro é {calculo_perimetro:.2f}")
