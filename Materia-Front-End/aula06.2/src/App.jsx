@@ -1,10 +1,12 @@
 import Aluno from './components/Aluno'
+import Dados from './components/Dados'
 
-const NomeDoArquivo = () => {
+const App = () => {
   return (
-    //fragments
+    //frag.ments
     <>
-    <App></App>
+    <Aluno nome="Fiap" idade="30"/>
+    <Dados usuario="Cidade" email="cidade@email.com"/>
     </>
   )
 }

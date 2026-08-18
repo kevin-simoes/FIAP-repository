@@ -1,8 +1,9 @@
-const Aluno = () => {
+const Aluno = (props) => {
     return (
         <>
-        <p>O nome do Aluno é:</p>
-        <p>A Idade do Aluno é:</p>
+        <h2>PROPS-PROPRIEDADES</h2>
+        <p>O nome do Aluno é: {props.nome}</p>
+        <p>A Idade do Aluno é: {props.idade}</p>
         </>
     )
 }
